@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+.MainPageWrapper{
+    width:100vw;
+    height: 100vh;
+    z-index: -99999
+    /* z-index: 10; */
+    /* background-color: antiquewhite; */
+}
+.MainPageWrapper .topMenu{
+    width:100vw;
+    height: 91vh;
+    /* background-color: aqua; */
+}
+
+.MainPageWrapper .bottom{
+    width: 100vw;
+    height: 9vh;
+    /* background-color: coral; */
+}

@@ -1,0 +1,7 @@
+.tag-container div{
+    height: 5vh;
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

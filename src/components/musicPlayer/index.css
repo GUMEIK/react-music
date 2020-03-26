@@ -1,0 +1,85 @@
+@import "http://at.alicdn.com/t/font_1466042_4l7quqbm4su.css";
+
+.musicDetailWrapper{
+    width:100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    box-sizing: border-box;
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0; */
+    /* z-index: -99; */
+    /* border: 1px solid black; */
+}
+.musicDetailWrapper .poster{
+    width:100vw;
+    height: 77vh;
+    position: absolute;
+    top:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index:-10; */
+    /* opacity: 0; */
+}
+.musicDetailWrapper .bottomControl{
+    width: 100vw;
+    height: 15vh;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 7vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.musicDetailWrapper .bottomControl .progressBar{
+    width:100vw;
+    height: 5vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.musicDetailWrapper .bottomControl .progressBar span{
+    margin: 0 5px;
+}
+.musicDetailWrapper .bottomControl .progressBar .procomWrapper{
+    width:80vw
+}
+.musicDetailWrapper .bottomControl .control{
+    width: 100vw;
+    height: 10vh;
+    /* border: 1px solid red; */
+    /* background-color: #ddd; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.musicDetailWrapper .bottomControl .control i{
+    color: #fff;
+    font-size: 8rem;
+}
+.musicDetailWrapper .bottomControl .control i.iconbuoumaotubiao45{
+    font-size: 7rem;
+}
+.musicDetailWrapper .bottomControl .control i.iconliebiao{
+    font-size: 9.3rem;
+}
+
+/* @import "http://at.alicdn.com/t/font_1466042_g4kkrkuh3tj.css"; */
+
+.MusicBottomWrapper i{
+    font-size: 9rem;
+    color: #000;
+    padding: 0 2rem;
+}
+.MusicBottomWrapper i.iconliebiao{
+    font-size: 10rem;
+    padding-right: 10rem;
+}

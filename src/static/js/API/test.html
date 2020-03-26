@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="module">
+        let baseurl = "http://47.98.229.148:3000/"
+       async function getRecommendList(num = 6){
+           let res,resjson;
+           try{
+            res = await fetch(`${baseurl}personalized?limit=${num}`);
+            resjson = await res.json();
+           }catch(e){
+               console.log(e)
+           }
+           let result = resjson.result;
+        return result;
+        // id
+        // name
+        // picUrl
+       }
+       getRecommendList().then(res=>{
+           console.log(res)
+       })
+
+    </script>
+</body>
+
+</html>
