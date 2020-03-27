@@ -3,7 +3,7 @@ import {baseurl} from './baseurl'
 export async function getHotList() {
     let res = await fetch(`${baseurl}search/hot`, {
         // cache:"force-cache",
-        xhrFields: { withCredentials: true }
+        // xhrFields: { withCredentials: true }
     });
     let resjson = await res.json();
     let result = []

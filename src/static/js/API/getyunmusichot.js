@@ -6,7 +6,7 @@ export async function getYunMusicHotList(index = 20) {
     // 云音乐热歌榜
     let res = await fetch(`${baseurl}top/list?idx=1`,{
         // cache:"force-cache",
-        xhrFields: { withCredentials: true }
+        // xhrFields: { withCredentials: true }
     })
     let resjson = await res.json();
     let result = [];

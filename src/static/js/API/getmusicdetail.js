@@ -4,10 +4,13 @@ export async function getMusicDetail(id) {
     try {
         // 我日，给fetch加个空对象就不跨域了
         res = await fetch(`${baseurl}song/detail?ids=${id}`,{
+            // mode:"no-cors",
             // cache:"force-cache",
-            xhrFields: { withCredentials: true }
+            // xhrFields: { withCredentials: true },
         });
+
         resjson = await res.json();
+        console.log(resjson)
     } catch (e) {
         console.log(e)
     }
